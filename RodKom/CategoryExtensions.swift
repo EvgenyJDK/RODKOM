@@ -10,11 +10,11 @@ import Foundation
 
 /* init(entity: NSManagedObject) */
 import CoreData
-/* Framework for extension for undeclared type IdentifiableType */
+/* Framework for extension IdentifiableType */
 import RxDataSources
-/* Framework for extension for undeclared type Persistable */
+/* Framework for extension Persistable */
 import RxCoreData
-/* Framework for extension for undeclared types Decodable and JSON  */
+/* Framework for extension Decodable and JSON  */
 import Gloss
 
 
