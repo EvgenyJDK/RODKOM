@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81CBFC7EBFC5D5E6B9F4352E /* Pods_RodKom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F14DB803079422F299DF06 /* Pods_RodKom.framework */; };
+		C32026E41E48CD4F00CA90DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32026E31E48CD4F00CA90DF /* AppDelegate.swift */; };
+		C32026E61E48CD4F00CA90DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32026E51E48CD4F00CA90DF /* ViewController.swift */; };
+		C32026E91E48CD4F00CA90DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32026E71E48CD4F00CA90DF /* Main.storyboard */; };
+		C32026EC1E48CD4F00CA90DF /* RodKom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32026EA1E48CD4F00CA90DF /* RodKom.xcdatamodeld */; };
+		C32026EE1E48CD4F00CA90DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32026ED1E48CD4F00CA90DF /* Assets.xcassets */; };
+		C32026F11E48CD4F00CA90DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32026EF1E48CD4F00CA90DF /* LaunchScreen.storyboard */; };
+		C32026F91E48CD8C00CA90DF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C32026F81E48CD8C00CA90DF /* Podfile */; };
+		C32027001E48CFF200CA90DF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32026FF1E48CFF200CA90DF /* Category.swift */; };
+		C32027021E48D12600CA90DF /* CategoryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32027011E48D12600CA90DF /* CategoryExtensions.swift */; };
+		C32027061E49EC6C00CA90DF /* startupData.json in Resources */ = {isa = PBXBuildFile; fileRef = C32027051E49EC6C00CA90DF /* startupData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		027E93CE3518B9501B507D59 /* Pods-RodKom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodKom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RodKom/Pods-RodKom.debug.xcconfig"; sourceTree = "<group>"; };
+		39F14DB803079422F299DF06 /* Pods_RodKom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RodKom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42536D6A7C80D480F8ED743C /* Pods-RodKom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RodKom.release.xcconfig"; path = "Pods/Target Support Files/Pods-RodKom/Pods-RodKom.release.xcconfig"; sourceTree = "<group>"; };
+		C32026E01E48CD4F00CA90DF /* RodKom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodKom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32026E31E48CD4F00CA90DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32026E51E48CD4F00CA90DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32026E81E48CD4F00CA90DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32026EB1E48CD4F00CA90DF /* RodKom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RodKom.xcdatamodel; sourceTree = "<group>"; };
+		C32026ED1E48CD4F00CA90DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32026F01E48CD4F00CA90DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32026F21E48CD4F00CA90DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32026F81E48CD8C00CA90DF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C32026FF1E48CFF200CA90DF /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C32027011E48D12600CA90DF /* CategoryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryExtensions.swift; sourceTree = "<group>"; };
+		C32027051E49EC6C00CA90DF /* startupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = startupData.json; path = 1/startupData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32026DD1E48CD4F00CA90DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CBFC7EBFC5D5E6B9F4352E /* Pods_RodKom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E7F80BBAC0971665B77816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F14DB803079422F299DF06 /* Pods_RodKom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		361E45B0071C455874EF301C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				027E93CE3518B9501B507D59 /* Pods-RodKom.debug.xcconfig */,
+				42536D6A7C80D480F8ED743C /* Pods-RodKom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C32026D71E48CD4F00CA90DF = {
+			isa = PBXGroup;
+			children = (
+				C32026F81E48CD8C00CA90DF /* Podfile */,
+				C32026FE1E48CFDE00CA90DF /* CoreData */,
+				C32026FB1E48CDE800CA90DF /* StartupData */,
+				C32026E21E48CD4F00CA90DF /* RodKom */,
+				C32026E11E48CD4F00CA90DF /* Products */,
+				361E45B0071C455874EF301C /* Pods */,
+				22E7F80BBAC0971665B77816 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32026E11E48CD4F00CA90DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32026E01E48CD4F00CA90DF /* RodKom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32026E21E48CD4F00CA90DF /* RodKom */ = {
+			isa = PBXGroup;
+			children = (
+				C32026E31E48CD4F00CA90DF /* AppDelegate.swift */,
+				C32026E51E48CD4F00CA90DF /* ViewController.swift */,
+				C32026E71E48CD4F00CA90DF /* Main.storyboard */,
+				C32026ED1E48CD4F00CA90DF /* Assets.xcassets */,
+				C32026EF1E48CD4F00CA90DF /* LaunchScreen.storyboard */,
+				C32026F21E48CD4F00CA90DF /* Info.plist */,
+				C32026EA1E48CD4F00CA90DF /* RodKom.xcdatamodeld */,
+			);
+			path = RodKom;
+			sourceTree = "<group>";
+		};
+		C32026FB1E48CDE800CA90DF /* StartupData */ = {
+			isa = PBXGroup;
+			children = (
+				C32027051E49EC6C00CA90DF /* startupData.json */,
+			);
+			name = StartupData;
+			sourceTree = "<group>";
+		};
+		C32026FE1E48CFDE00CA90DF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C32026FF1E48CFF200CA90DF /* Category.swift */,
+				C32027011E48D12600CA90DF /* CategoryExtensions.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32026DF1E48CD4F00CA90DF /* RodKom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32026F51E48CD4F00CA90DF /* Build configuration list for PBXNativeTarget "RodKom" */;
+			buildPhases = (
+				91363BF0419E333D52C04210 /* [CP] Check Pods Manifest.lock */,
+				C32026DC1E48CD4F00CA90DF /* Sources */,
+				C32026DD1E48CD4F00CA90DF /* Frameworks */,
+				C32026DE1E48CD4F00CA90DF /* Resources */,
+				9B774E5CF1318612CE8D7E8B /* [CP] Embed Pods Frameworks */,
+				A12A67C86E1CCDB5E66C20BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RodKom;
+			productName = RodKom;
+			productReference = C32026E01E48CD4F00CA90DF /* RodKom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32026D81E48CD4F00CA90DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C32026DF1E48CD4F00CA90DF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C32026DB1E48CD4F00CA90DF /* Build configuration list for PBXProject "RodKom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32026D71E48CD4F00CA90DF;
+			productRefGroup = C32026E11E48CD4F00CA90DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32026DF1E48CD4F00CA90DF /* RodKom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32026DE1E48CD4F00CA90DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32027061E49EC6C00CA90DF /* startupData.json in Resources */,
+				C32026F11E48CD4F00CA90DF /* LaunchScreen.storyboard in Resources */,
+				C32026EE1E48CD4F00CA90DF /* Assets.xcassets in Resources */,
+				C32026F91E48CD8C00CA90DF /* Podfile in Resources */,
+				C32026E91E48CD4F00CA90DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91363BF0419E333D52C04210 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B774E5CF1318612CE8D7E8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RodKom/Pods-RodKom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12A67C86E1CCDB5E66C20BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RodKom/Pods-RodKom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32026DC1E48CD4F00CA90DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32026E61E48CD4F00CA90DF /* ViewController.swift in Sources */,
+				C32026E41E48CD4F00CA90DF /* AppDelegate.swift in Sources */,
+				C32026EC1E48CD4F00CA90DF /* RodKom.xcdatamodeld in Sources */,
+				C32027001E48CFF200CA90DF /* Category.swift in Sources */,
+				C32027021E48D12600CA90DF /* CategoryExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C32026E71E48CD4F00CA90DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32026E81E48CD4F00CA90DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32026EF1E48CD4F00CA90DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32026F01E48CD4F00CA90DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32026F31E48CD4F00CA90DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32026F41E48CD4F00CA90DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32026F61E48CD4F00CA90DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027E93CE3518B9501B507D59 /* Pods-RodKom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RodKom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.RodKom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32026F71E48CD4F00CA90DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42536D6A7C80D480F8ED743C /* Pods-RodKom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RodKom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.RodKom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32026DB1E48CD4F00CA90DF /* Build configuration list for PBXProject "RodKom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32026F31E48CD4F00CA90DF /* Debug */,
+				C32026F41E48CD4F00CA90DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32026F51E48CD4F00CA90DF /* Build configuration list for PBXNativeTarget "RodKom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32026F61E48CD4F00CA90DF /* Debug */,
+				C32026F71E48CD4F00CA90DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C32026EA1E48CD4F00CA90DF /* RodKom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C32026EB1E48CD4F00CA90DF /* RodKom.xcdatamodel */,
+			);
+			currentVersion = C32026EB1E48CD4F00CA90DF /* RodKom.xcdatamodel */;
+			path = RodKom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C32026D81E48CD4F00CA90DF /* Project object */;
+}
