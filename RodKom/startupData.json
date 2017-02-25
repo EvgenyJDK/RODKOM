@@ -1,22 +1,74 @@
-[
+ [
   {
-    "id": "1",
-    "name": "Profile",
+  "id": "F01F9543-25F3-4D9C-BF71-F13C0851933C",
+  "name": "Salary",
+  "type": 0,
+  "imageId": 1
   },
   {
-    "id": "2",
-    "name": «Library»,
+  "id": "E5E716FF-B4AC-4C3E-9075-DC35A26E506A",
+  "name": "Bonuses",
+  "type": 0,
+  "imageId": 2
   },
   {
-    "id": "3",
-    "name": «Points of Interest»,
+  "id": "66E4EF4F-2143-41D3-B61F-2958501F6F9B",
+  "name": "Freelance",
+  "type": 0,
+  "imageId": 3
   },
   {
-    "id": "4",
-    "name": "Events",
+  "id": "A359543A-9BD0-4761-950C-F7677DB0C83D",
+  "name": "Investments",
+  "type": 0,
+  "imageId": 4
   },
   {
-    "id": "5",
-    "name": «ZoJ»,
+  "id": "950593A1-65E5-4D77-A6CA-3A6E36B2D753",
+  "name": "Gift",
+  "type": 0,
+  "imageId": 5
+  },
+  {
+  "id": "7A9F8148-2A05-4A9C-B11D-240084E32551",
+  "name": "Other",
+  "type": 0,
+  "imageId": 6
+  },
+  {
+  "id": "301B735B-671C-4611-A64A-BC6E749CDED7",
+  "name": "Food",
+  "type": 1,
+  "imageId": 1
+  },
+  {
+  "id": "306C3601-F1E8-40F4-B184-01F1FAEC67BC",
+  "name": "Transport",
+  "type": 1,
+  "imageId": 2
+  },
+  {
+  "id": "7610EA3A-7CD2-4AD2-A20C-41AE3BF6495B",
+  "name": "Entertainment",
+  "type": 1,
+  "imageId": 3
+  },
+  {
+  "id": "1DC34039-628C-4680-B84C-CED2A5077B2D",
+  "name": "Housing",
+  "type": 1,
+  "imageId": 4
+  },
+  {
+  "id": "945A72BD-7D41-41FB-A0E7-CAF5349437E9",
+  "name": "Healthcare",
+  "type": 1,
+  "imageId": 5
+  },
+  {
+  "id": "4D2CEEEA-1A33-4411-9E62-F2F54AA1512F",
+  "name": "Purchases",
+  "type": 1,
+  "imageId": 6
   }
-]
+  ]

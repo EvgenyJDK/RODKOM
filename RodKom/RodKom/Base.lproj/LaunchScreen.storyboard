@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,26 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="r4vdtS9MKfQ" translatesAutoresizingMaskIntoConstraints="NO" id="2eV-m6-qnA">
+                                <rect key="frame" x="-20" y="20" width="620" height="580"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="2eV-m6-qnA" secondAttribute="trailing" constant="-20" id="NE7-jo-3cq"/>
+                            <constraint firstItem="2eV-m6-qnA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="XXx-Rd-OkA"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="2eV-m6-qnA" secondAttribute="bottom" id="YIk-y2-J1l"/>
+                            <constraint firstItem="2eV-m6-qnA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-30" id="ZYI-RF-t23"/>
+                            <constraint firstItem="2eV-m6-qnA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-40" id="bKu-j1-lLS"/>
+                            <constraint firstItem="2eV-m6-qnA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="ol4-Lx-gpw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZYI-RF-t23"/>
+                                <exclude reference="ol4-Lx-gpw"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +44,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="r4vdtS9MKfQ" width="894" height="894"/>
+    </resources>
 </document>

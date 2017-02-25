@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Category_0</key>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Profile</string>
+		<key>CategoryIconName</key>
+		<string></string>
+		<key>CategorySegue</key>
+		<string>profileSegue</string>
+	</dict>
+	<key>Category_1</key>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Library</string>
+		<key>CategoryIconName</key>
+		<string></string>
+		<key>CategorySegue</key>
+		<string>librarySegue</string>
+	</dict>
+	<key>Category_2</key>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Points Of Interests</string>
+		<key>CategoryIconName</key>
+		<string></string>
+		<key>CategorySegue</key>
+		<string>interestPoints</string>
+	</dict>
+	<key>Category_3</key>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Events</string>
+		<key>CategoryIconName</key>
+		<string></string>
+		<key>CategorySegue</key>
+		<string>eventsSegue</string>
+	</dict>
+	<key>Category_4</key>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Zoj</string>
+		<key>CategoryIconName</key>
+		<string></string>
+		<key>CategorySegue</key>
+		<string>zojSegue</string>
+	</dict>
+</dict>
+</plist>

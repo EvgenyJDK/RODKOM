@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Profile",
+  },
+  {
+    "id": "2",
+    "name": "Library',
+  },
+  {
+    "id": "3",
+    "name": "Points of Interest",
+  },
+  {
+    "id": "4",
+    "name": "Events",
+  },
+  {
+    "id": "5",
+    "name": "ZoJ",
+  }
+]

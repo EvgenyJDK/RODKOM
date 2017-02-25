@@ -115,7 +115,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let defaultDataPath = NSBundle.mainBundle().pathForResource(fileName, ofType: "json")
         let defaultData = NSData(contentsOfFile: defaultDataPath!)
         let defaultJson = try? NSJSONSerialization.JSONObjectWithData(defaultData!, options: [])
-        print(defaultJson)
+//       print(defaultJson)
         
         return defaultJson as! [Dictionary<String, AnyObject>]
     }
@@ -124,9 +124,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func preloadData () {
         
         _ = [Category].fromJSONArray(readJSON("startupData"))
-            .map { entity in
-                try? self.managedObjectContext.update(entity)
-        }
+//            .map { entity in
+//                try? self.managedObjectContext.update(entity)
+//        }
     }
 
 }
