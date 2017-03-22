@@ -15,12 +15,19 @@ class MainScreenViewController : UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var libraryBtn: UIButton!
     
-    @IBOutlet weak var hangsOutBtn: UIButton!
+    @IBOutlet weak var POIBtn: UIButton!
     
     
     @IBOutlet weak var logoView: UIView!
     
     override func viewDidLoad() {
+        
+      
+//        self.navigationController?.navigationBar.barTintColor = UIColor(red: 60.0/255.0, green: 64.0/255.0, blue: 67.0/255.0, alpha: 1.0)
+//        self.navigationController?.navigationBar.barTintColor = UIColor(red: 50.0/255.0, green: 5.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 170.0/255.0, green: 107.0/255.0, blue: 76.0/255.0, alpha: 1.0)
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)]
+        
 //        self.logoView
     }
     

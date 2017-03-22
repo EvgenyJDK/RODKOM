@@ -11,7 +11,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class HangsOutViewController : UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate {
+class POIViewController : UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
     

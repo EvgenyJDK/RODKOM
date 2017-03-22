@@ -23,7 +23,7 @@
 		C320270E1E4B691C00CA90DF /* defaultData.json in Resources */ = {isa = PBXBuildFile; fileRef = C320270D1E4B691C00CA90DF /* defaultData.json */; };
 		C32027111E4BD36E00CA90DF /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32027101E4BD36E00CA90DF /* AppNavigationController.swift */; };
 		C32027161E4BD6B300CA90DF /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32027151E4BD6B300CA90DF /* MainScreenViewController.swift */; };
-		C38987341E60AEB100BC0660 /* HangsOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38987331E60AEB100BC0660 /* HangsOutViewController.swift */; };
+		C38987341E60AEB100BC0660 /* POIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38987331E60AEB100BC0660 /* POIViewController.swift */; };
 		C38987361E60AFB100BC0660 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38987351E60AFB100BC0660 /* MapKit.framework */; };
 		C38987381E60AFE700BC0660 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38987371E60AFE700BC0660 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,7 @@
 		C320270D1E4B691C00CA90DF /* defaultData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = defaultData.json; sourceTree = "<group>"; };
 		C32027101E4BD36E00CA90DF /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
 		C32027151E4BD6B300CA90DF /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
-		C38987331E60AEB100BC0660 /* HangsOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangsOutViewController.swift; sourceTree = "<group>"; };
+		C38987331E60AEB100BC0660 /* POIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIViewController.swift; sourceTree = "<group>"; };
 		C38987351E60AFB100BC0660 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C38987371E60AFE700BC0660 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -170,7 +170,7 @@
 		C32027081E4A0DE200CA90DF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C38987321E60AE8C00BC0660 /* HangsOut */,
+				C38987321E60AE8C00BC0660 /* POI */,
 				C32027121E4BD4E100CA90DF /* Main */,
 				C320270F1E4BD34E00CA90DF /* Navigation */,
 			);
@@ -193,12 +193,12 @@
 			name = Main;
 			sourceTree = "<group>";
 		};
-		C38987321E60AE8C00BC0660 /* HangsOut */ = {
+		C38987321E60AE8C00BC0660 /* POI */ = {
 			isa = PBXGroup;
 			children = (
-				C38987331E60AEB100BC0660 /* HangsOutViewController.swift */,
+				C38987331E60AEB100BC0660 /* POIViewController.swift */,
 			);
-			name = HangsOut;
+			name = POI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +335,7 @@
 				C32027161E4BD6B300CA90DF /* MainScreenViewController.swift in Sources */,
 				C32027001E48CFF200CA90DF /* Category.swift in Sources */,
 				C32027021E48D12600CA90DF /* CategoryExtensions.swift in Sources */,
-				C38987341E60AEB100BC0660 /* HangsOutViewController.swift in Sources */,
+				C38987341E60AEB100BC0660 /* POIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

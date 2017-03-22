@@ -16,7 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        
+        
+//        UINavigationBar.setBackgroundImage(UINavigationBar.appearance().backgroundColor
+//        
+//        UINavigationBar.backgroundColor = UIColor(red: 60.0/255.0, green: 64.0/255.0, blue: 67.0/255.0, alpha: 1.0)
 
+        
+        
         preloadData()
         
         return true

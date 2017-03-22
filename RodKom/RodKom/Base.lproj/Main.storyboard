@@ -33,15 +33,15 @@
                         <viewControllerLayoutGuide type="top" id="VIk-wF-SQd"/>
                         <viewControllerLayoutGuide type="bottom" id="gAl-zO-NA1"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="487-GK-sGU">
+                    <view key="view" contentMode="scaleAspectFit" id="487-GK-sGU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSa-n7-oev">
-                                <rect key="frame" x="8" y="480" width="142" height="78"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="8" y="478" width="190" height="108"/>
+                                <color key="backgroundColor" red="0.66666666666666663" green="0.41960784313725491" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Read" image="Копия book_PNG2116_small">
-                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="54u-qN-vF0">
@@ -75,28 +75,35 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIi-60-xd0">
-                                <rect key="frame" x="158" y="480" width="240" height="90"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Hangs-Out" image="_10839532">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIi-60-xd0" userLabel="POI Btn">
+                                <rect key="frame" x="206" y="478" width="188" height="108"/>
+                                <color key="backgroundColor" red="0.66666666669999997" green="0.41960784309999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="POI" image="S7_screen_pictures_POI1"/>
                                 <connections>
-                                    <segue destination="zTy-ZD-hbn" kind="show" id="onJ-1m-BPv"/>
+                                    <segue destination="zTy-ZD-hbn" kind="show" id="8H1-o5-nEZ"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yWi-vh-ReX">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <color key="backgroundColor" red="0.23529411764705882" green="0.25098039215686274" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="K2s-H3-syK"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.66666666666666663" green="0.41960784313725491" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="yWi-vh-ReX" firstAttribute="bottom" secondItem="487-GK-sGU" secondAttribute="bottomMargin" id="B8f-Gg-3EC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yWi-vh-ReX" secondAttribute="trailing" constant="-20" id="Mjh-Pi-Kdl"/>
                             <constraint firstItem="54u-qN-vF0" firstAttribute="top" secondItem="VIk-wF-SQd" secondAttribute="bottom" id="Rrq-qI-aha"/>
+                            <constraint firstItem="yWi-vh-ReX" firstAttribute="leading" secondItem="487-GK-sGU" secondAttribute="leadingMargin" constant="-20" id="pSK-8u-5Sq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="54u-qN-vF0" secondAttribute="trailing" constant="-27" id="uMS-iK-NfZ"/>
+                            <constraint firstItem="yWi-vh-ReX" firstAttribute="leading" secondItem="487-GK-sGU" secondAttribute="leadingMargin" constant="-20" id="ulj-Bm-gfo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yWi-vh-ReX" secondAttribute="trailing" constant="-20" id="wOS-B6-u8y"/>
                             <constraint firstItem="54u-qN-vF0" firstAttribute="leading" secondItem="487-GK-sGU" secondAttribute="leadingMargin" constant="-20" id="y7M-EJ-WK1"/>
                         </constraints>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Favorite" id="4s2-pe-gfG"/>
-                        <barButtonItem title="Follow" id="VDM-YB-soi"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="Knf-nM-eUh">
                         <nil key="title"/>
                         <barButtonItem key="rightBarButtonItem" title="Sign in" id="nvW-li-EuB" userLabel="Sign in"/>
@@ -104,7 +111,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="hangsOutBtn" destination="sIi-60-xd0" id="AgB-qw-6JU"/>
+                        <outlet property="POIBtn" destination="sIi-60-xd0" id="1EO-62-93j"/>
                         <outlet property="libraryBtn" destination="KSa-n7-oev" id="8FQ-Ta-thS"/>
                         <outlet property="logoView" destination="54u-qN-vF0" id="ySz-uk-mMj"/>
                     </connections>
@@ -151,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="-66" y="1021"/>
         </scene>
-        <!--Hangs Out View Controller-->
+        <!--View Controller-->
         <scene sceneID="chL-Er-6KH">
             <objects>
-                <viewController id="zTy-ZD-hbn" customClass="HangsOutViewController" customModule="RodKom" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zTy-ZD-hbn" customClass="POIViewController" customModule="RodKom" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Iht-lD-jYl"/>
                         <viewControllerLayoutGuide type="bottom" id="Tl1-3e-AaU"/>
@@ -167,7 +174,7 @@
                                 <rect key="frame" x="0.0" y="64" width="414" height="482"/>
                             </mapView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="54" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GMe-0r-xt5">
-                                <rect key="frame" x="-20" y="514" width="434" height="178"/>
+                                <rect key="frame" x="-20" y="514" width="434" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="eventsCell" rowHeight="54" id="wch-o2-i4v" customClass="EventsTableCell" customModule="RodKom" customModuleProvider="target">
@@ -207,31 +214,28 @@
                                     <outlet property="delegate" destination="zTy-ZD-hbn" id="opx-MA-8Gb"/>
                                 </connections>
                             </tableView>
-                            <tabBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KrC-gj-Dv6">
-                                <rect key="frame" x="0.0" y="692" width="414" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="fcL-e6-EgO"/>
-                                    <tabBarItem systemItem="more" id="BAi-15-ScZ"/>
-                                    <tabBarItem systemItem="bookmarks" id="dMA-Hf-Yks" userLabel="Edit"/>
-                                </items>
-                            </tabBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Zg-M2-zLk">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zct-tD-avI">
+                                        <rect key="frame" x="13" y="11" width="74" height="22"/>
+                                        <state key="normal" image="review"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="KrC-gj-Dv6" secondAttribute="bottom" id="3xh-gA-B4P"/>
                             <constraint firstItem="GMe-0r-xt5" firstAttribute="top" secondItem="Iht-lD-jYl" secondAttribute="bottom" constant="450" id="7Zu-Pf-5Mf"/>
                             <constraint firstItem="Tl1-3e-AaU" firstAttribute="top" secondItem="GMe-0r-xt5" secondAttribute="bottom" constant="50" id="7nK-sS-tgt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GMe-0r-xt5" secondAttribute="trailing" constant="-20" id="87B-fB-IrR"/>
                             <constraint firstItem="Tl1-3e-AaU" firstAttribute="top" secondItem="GMe-0r-xt5" secondAttribute="bottom" id="AJW-9R-LmA"/>
-                            <constraint firstItem="KrC-gj-Dv6" firstAttribute="leading" secondItem="GSd-96-khq" secondAttribute="leadingMargin" constant="-20" id="ASe-Gb-ldA"/>
                             <constraint firstItem="tcU-50-G0z" firstAttribute="top" secondItem="Iht-lD-jYl" secondAttribute="bottom" id="Fx3-PF-h6L"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="KrC-gj-Dv6" secondAttribute="trailing" constant="-20" id="RsF-E1-9GP"/>
                             <constraint firstItem="tcU-50-G0z" firstAttribute="width" secondItem="GSd-96-khq" secondAttribute="width" id="TCa-t7-SPk"/>
                             <constraint firstItem="GMe-0r-xt5" firstAttribute="leading" secondItem="GSd-96-khq" secondAttribute="leadingMargin" constant="-40" id="bTf-Ix-fpv"/>
                             <constraint firstItem="tcU-50-G0z" firstAttribute="leading" secondItem="GSd-96-khq" secondAttribute="leadingMargin" constant="-20" id="g6i-Wo-gGQ"/>
                             <constraint firstItem="tcU-50-G0z" firstAttribute="height" secondItem="GSd-96-khq" secondAttribute="height" multiplier="0.6" id="qiE-8u-voE"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="KrC-gj-Dv6" secondAttribute="bottom" id="z42-aF-50Y"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -280,7 +284,8 @@
     </scenes>
     <resources>
         <image name="156867427" width="640" height="360"/>
-        <image name="_10839532" width="150" height="90"/>
+        <image name="S7_screen_pictures_POI1" width="150" height="113"/>
+        <image name="review" width="20" height="20"/>
         <image name="Копия book_PNG2116_small" width="100" height="78"/>
     </resources>
 </document>
